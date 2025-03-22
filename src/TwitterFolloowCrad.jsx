@@ -16,6 +16,7 @@ export function TwitterFollowCard ({userName,name}){
 return (
     <article className='tw-followCard'>
     <header className='tw-followCard-header'>
+        <h1>Hola mundo</h1>
         <img 
         className='tw-followCard-avatar'
         src={ `https://ui-avatars.com/api/?name=${userName} `} alt="Avatar" />
